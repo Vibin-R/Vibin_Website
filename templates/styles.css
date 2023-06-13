@@ -1,0 +1,16 @@
+.contact-tab {
+  
+  bottom: 20px;
+  right: 20px;
+  
+}
+
+.contact-tab a {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.contact-tab img {
+  width: 30px;
+  height: 30px;
+}
