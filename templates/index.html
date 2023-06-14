@@ -22,15 +22,17 @@
       
 
       .my-image{
-  max-width: 450px;
-  max-height: auto; 
+  max-width: 400px;
+  max-height: auto;
+        min-width:50px;
+        opacity
       
 }
       .my-image-container{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 85vh;
 
       }
       .responsive-image {
@@ -50,7 +52,7 @@
       .heading{
         color:#fbfbfb;  
         padding:10px;
-        
+        margin-top:20px;   
       }
 
       .contact-tab img {
@@ -61,7 +63,7 @@
   </head>
   <body>
     <div class="container">
-      <h1 class="text-center heading">Hello, I'm Vibin</h1>
+      <h1 class="text-center heading">Hey!, It's me <b>Vibin</b></h1>
 <div class="my-image-container" >
       <img
         id="banner"
@@ -80,7 +82,7 @@
         microprocessors, and integrate systems. ECE engineers are
         detail-oriented, analytical, and innovative.
       </p>
-
+<div >
       <h2 class="text-center mt-2 mb-4">Projects</h2>
 
       <div>
@@ -88,42 +90,45 @@
         <div>{% include 'projects.html' %}</div>
         {% endfor %}
       </div>
-
-      <div class="contact-tab container text-center"">
+</div>
+      
+      <div class="contact-tab container text-center" style="margin-top:50px">
+        
       <h4>Contact</h4>
-      <div>
+        
+      <div style="margin-bottom:30px;">
         <a
           href="https://www.linkedin.com/in/vibin-r-1b487023b/"
           target="_blank"
         >
-          <img
+          <img style="padding:4px;"
             src="https://vibinwebsite--vibinr.repl.co/static/linkedinpng.png"
             alt="LinkedIn Logo"
           /> </a
-        ><span>VIBIN R</span>
-      </div>
+        >
+      
 
-      <div>
+      
         <a
           href="https://www.instagram.com/your_instagram_account"
           target="_blank"
         >
-          <img
+          <img style="padding:4px;"
             src="https://vibinwebsite--vibinr.repl.co/static/instapng.png"
             alt="Instagram Logo"
           />
         </a>
-        <span>_vibin_673_</span>
-      </div>
+        
+     
 
-      <div>
+      
         <a href="https://www.twitter.com/your_twitter_account" target="_blank">
-          <img
+          <img style="padding:4px;"
             src="https://vibinwebsite--vibinr.repl.co/static/twitterpng.png"
             alt="Twitter Logo"
           />
         </a>
-        <span>VIBIN R</span>
+        
       </div>
     </div>
   </body>
